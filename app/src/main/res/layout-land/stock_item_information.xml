@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/stock_company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/stock_item_information_marginBottom_heading"
+        android:layout_marginTop="@dimen/abc_list_item_padding_horizontal_material"
+        android:fontFamily="sans-serif"
+        android:gravity="start"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:text="FaceBook, Inc."
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/stock_item_information_heading" />
+
+    <TextView
+        android:id="@+id/stock_exchange"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_list_item_padding_horizontal_material"
+        android:fontFamily="sans-serif"
+        android:gravity="start"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:text="NASDAQ: FB"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/stock_item_information_symbol" />
+
+        <TextView
+            android:id="@+id/bid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/stock_item_information_padding_bottom"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="$63.62"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/stock_item_information_price"/>
+
+</LinearLayout>

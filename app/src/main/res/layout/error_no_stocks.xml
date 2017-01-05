@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_no_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/content_description_no_results">
+
+    <ImageView
+        android:id="@+id/no_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_do_not_disturb_alt_black_24dp"
+        android:tint="@android:color/white"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/no_network_text"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@id/no_network"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="@string/error_no_stock_message"/>
+
+</RelativeLayout>
